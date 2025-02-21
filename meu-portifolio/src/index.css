@@ -1,0 +1,24 @@
+/* src/index.css */
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
